@@ -5,7 +5,7 @@ Pues eso, un ejemplo utilizando la api de OpenAi, en python plano.
 ## Requisitos
 
 * Python 3.10.2 o superior
-* una cuenta en OpenAi y una api key
+* una cuenta en OpenAi y una api key [OpenAI](https://platform.openai.com/overview)
 
 ## Instalación
 
@@ -35,4 +35,3 @@ Listo, ya puedes hablar con el bot.
 ## Licencia
 
 [MIT](https://choosealicense.com/licenses/mit/)
-
