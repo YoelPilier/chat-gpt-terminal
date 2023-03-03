@@ -18,7 +18,7 @@ Instala las dependencias:
   
     pip install -r requirements.txt
 
-crea un archivo `.env` con el siguiente contenido:
+crea un archivo `.env`  en chat-gpt-terminal/ con el siguiente contenido:
 
     OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
