@@ -9,7 +9,7 @@ openai.api_key = key
 
      
 mensajes = []
-system_msg = input("Conque tipo de bot te gustaría conversar?\n ")
+system_msg = input("¿Con qué tipo de bot te gustaría conversar?\n ")
 mensajes.append({"role": "system", "content": system_msg})
 
 print("Dile algo!")
