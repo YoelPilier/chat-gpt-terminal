@@ -45,3 +45,6 @@ while True:
 # Obtiene la fecha y hora actual y crea un archivo de texto con el historial de la conversación
 now = datetime.datetime.now()
 historial = open("Historial/{}.txt".format(now.strftime("%Y%m%d %H%M%S")), "w")
+for mensaje in mensajes:
+    historial.write("{}: {}\n".format(mensaje["role"], mensaje["content"]))
+historial.close()
