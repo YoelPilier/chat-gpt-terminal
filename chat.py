@@ -24,7 +24,7 @@ print("Dile algo!")
 
 while True: 
     mensaje = input()
-    if mensaje == "salir":
+    if mensaje == "salir" or mensaje == "exit":
         break
     
     # Agrega el mensaje del usuario a la lista de mensajes
